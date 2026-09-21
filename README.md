@@ -65,6 +65,8 @@
 ### 🐾 꼬동 (KKODONG) — 반려견 산책 소셜 *(개인 · 개발 중)*
 > 견주 커뮤니티가 아니라 **강아지끼리 친구를 맺어주는** 산책 소셜 서비스. 기획·설계·서버·앱을 혼자 맡았습니다.
 
+[![Server](https://img.shields.io/badge/kkodong--server-6DB33F?style=flat-square&logo=github&logoColor=white)](https://github.com/proteinJ/kkodong-server)
+
 - **서버** Spring Boot 3.5 / PostgreSQL + PostGIS / Redis / Flyway / Cloudflare R2 — 약 15,200줄 + 테스트 5,200줄
 - **iOS** Swift · SwiftUI · MVVM — 약 11,600줄, 배경 제거는 Apple Vision 프레임워크로 **온디바이스 처리**(서버 비용 0)
 - 거리 기반 추천 후보 조회를 `ST_DWithin` + GiST 인덱스로 처리, Refresh Token·로그아웃 블랙리스트는 Redis
@@ -132,7 +134,9 @@
 
 <div align="center">
 
-![proteinJ's GitHub stats](https://github-readme-stats.vercel.app/api?username=proteinJ&show_icons=true&hide_border=true&theme=default)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=proteinJ&layout=compact&hide_border=true&theme=default)
+**함께 만들 일이 있다면 편하게 연락 주세요**
+
+[![Email](https://img.shields.io/badge/jaehyun516@naver.com-03C75A?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:jaehyun516@naver.com)
+[![GitHub](https://img.shields.io/badge/github.com/proteinJ-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/proteinJ)
 
 </div>
