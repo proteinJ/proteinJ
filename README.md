@@ -65,7 +65,7 @@
 ### 🐾 꼬동 (KKODONG) — 반려견 산책 소셜 *(개인 · 개발 중)*
 > 견주 커뮤니티가 아니라 **강아지끼리 친구를 맺어주는** 산책 소셜 서비스. 기획·설계·서버·앱을 혼자 맡았습니다.
 
-[![Server](https://img.shields.io/badge/kkodong--server-6DB33F?style=flat-square&logo=github&logoColor=white)](https://github.com/proteinJ/kkodong-server)
+`Spring Boot` `PostGIS` `Redis` `Swift` — *리포지토리는 현재 비공개입니다. 코드 열람이 필요하시면 연락 주세요.*
 
 - **서버** Spring Boot 3.5 / PostgreSQL + PostGIS / Redis / Flyway / Cloudflare R2 — 약 15,200줄 + 테스트 5,200줄
 - **iOS** Swift · SwiftUI · MVVM — 약 11,600줄, 배경 제거는 Apple Vision 프레임워크로 **온디바이스 처리**(서버 비용 0)
@@ -101,12 +101,11 @@
 > 실제 기상 데이터를 반영한 Unity 시뮬레이터에서 운항 데이터를 수집하고, 항로·위험구역 API를 검증
 
 [![Collector](https://img.shields.io/badge/navlog--collector-6DB33F?style=flat-square&logo=github&logoColor=white)](https://github.com/proteinJ/navlog-collector)
-[![Unity](https://img.shields.io/badge/ICT--Unity-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/ICT-Smart-Shipping-Logistics/ICT-Unity)
 
 - **Java 21 / Spring Boot 3.x / PostgreSQL + PostGIS / Redis / Docker** 기반 ML 학습용 데이터 수집 파이프라인
 - 로그인 없이 **UUID 기반 클라이언트 식별**, 운항 로그(VesselLog·EnvironmentLog·EventLog) 도메인 분리 설계
 - 기상청·국립해양조사원 API를 1시간 주기 스케줄러로 배치 수집
-- Unity 클라이언트가 REST + WebSocket(`wss://.../nav/ws`)으로 항로·경로 이탈·위험구역 안내를 실시간 수신
+- Unity 클라이언트(조직 비공개 리포)가 REST + WebSocket(`wss://.../nav/ws`)으로 항로·경로 이탈·위험구역 안내를 실시간 수신
 
 ### 🧰 spring-boot-boilerplate — 재사용 백엔드 템플릿 *(개인)*
 [![Repo](https://img.shields.io/badge/spring--boot--boilerplate-6DB33F?style=flat-square&logo=github&logoColor=white)](https://github.com/proteinJ/spring-boot-boilerplate)
